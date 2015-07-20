@@ -1,0 +1,51 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color:#676858;
+	font-weight: 300; 
+	background-color: #1f1f21;
+}
+
+.text-muted{
+	color: #676858;
+}
+
+.text-thin{
+	font-weight: 100;
+}
+
+.title-super{
+	font-size: 60px;
+}
+
+.img-news{
+	margin: 15px;
+}
+
+#title-logo {
+
+	display: block;
+	float: left;
+	height: 100px;
+	overflow: hidden;
+	padding: 0;
+	text-indent: -9999px;
+	width: 200px;
+	background: url(images/logo_sprite.png) 0px 0px no-repeat;
+	margin-top: 20px;
+}
+
+#title-logo:hover {
+	-moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    -webkit-transition: opacity .6s ease-in-out;
+    background: url(images/logo_sprite.png) 0px -100px no-repeat;
+    display: block;
+    height: 100px;
+    transition: opacity .6s ease-in-out;
+    width: 200px; 
+    margin-top: 20px;   
+}
+
+
+
+}
